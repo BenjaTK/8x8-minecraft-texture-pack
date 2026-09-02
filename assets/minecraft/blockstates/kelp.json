@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=25": {
+      "model": "minecraft:block/kelp_full_age"
+    },
+	"age<25": {
+      "model": "minecraft:block/kelp"
+	}
+  }
+}
