@@ -1,0 +1,6 @@
+{
+  "parent": "benjatk:block/template_grass_block_with_decoration",
+  "textures": {
+    "decoration": "minecraft:block/grass_block_flowers"
+  }
+}

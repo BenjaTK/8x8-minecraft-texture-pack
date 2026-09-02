@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "weight": 2,
+        "model": "minecraft:block/lily_of_the_valley"
+      },
+      {
+        "weight": 2,
+        "model": "minecraft:block/lily_of_the_valley_2"
+      },
+      {
+        "weight": 1,
+        "model": "minecraft:block/lily_of_the_valley_multiple"
+      }
+    ]
+  }
+}

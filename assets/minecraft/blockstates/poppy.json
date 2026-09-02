@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/poppy"
+      },
+      {
+        "model": "minecraft:block/poppy_multiple"
+      }
+    ]
+  }
+}

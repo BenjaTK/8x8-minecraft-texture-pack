@@ -1,0 +1,21 @@
+{
+    "pack": {
+        "description": "by BenjaTK",
+        "min_format": 88,
+        "max_format": 88
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "darkui_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "overlay_88",
+                "min_format": 88,
+                "max_format": 96
+            }
+        ]
+    }
+}
