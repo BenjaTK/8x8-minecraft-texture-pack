@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/torch_block",
-		"torch": "block/torch_block"
+		"particle": "#torch",
+		"torch": "#torch"
 	},
 	"elements": [
 		{
