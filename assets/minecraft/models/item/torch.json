@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "block/torch"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [10, 4, 6, 16], "texture": "#layer0"},
+				"east": {"uv": [6, 4, 10, 16], "texture": "#layer0"},
+				"south": {"uv": [10, 4, 6, 16], "texture": "#layer0"},
+				"west": {"uv": [6, 4, 10, 16], "texture": "#layer0"},
+				"up": {"uv": [6, 4, 10, 8], "texture": "#layer0"},
+				"down": {"uv": [6, 12, 10, 16], "texture": "#layer0", "cullface": "down"}
+			}
+		}
+	]
+}
