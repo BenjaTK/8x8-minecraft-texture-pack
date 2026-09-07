@@ -3,12 +3,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/template_bed",
 	"textures": {
-		"north": "textures/block/bed_head_north",
-		"east": "",
-		"west": "",
-		"up": "",
-		"down": "textures/block/bed_down",
-		"particle": "textures/block/oak_planks"
+		"north": "block/bed_head_north",
+		"east": "#east",
+		"west": "#west",
+		"up": "#up",
+		"down": "block/bed_down",
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{
