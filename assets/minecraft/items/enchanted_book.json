@@ -1,0 +1,283 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_book"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:fire_protection"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/fire_protection"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:blast_protection"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/blast_protection"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:protection"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/protection"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:depth_strider"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/depth_strider"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:unbreaking"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/unbreaking"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "#minecraft:curse"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/curse"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:frost_walker"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/frost_walker"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:aqua_affinity"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/aqua_affinity"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:efficiency"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/efficiency"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:fire_aspect"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/fire_aspect"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:flame"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/flame"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:channeling"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/channeling"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:infinity"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/infinity"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "property": "minecraft:component"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:feather_falling"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/feather_falling"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:bane_of_arthropods"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/bane_of_arthropods"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:fortune"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "benjatk:item/enchanted_book/fortune"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}
